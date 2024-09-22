@@ -16,7 +16,7 @@ These results suggest that with additional hyperparameter tuning, the SNN may be
       <img src="assets/snn_agent_demo.gif" width="200" />
     </td>
     <td align="center">
-      <img src="assets/snn_agent_sim2real_demo.gif" width="300" />
+      <img src="assets/snn_agent_sim2real_demo.gif" width="300"  hight="300"/>
     </td>
   </tr>
 </table>
