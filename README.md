@@ -15,5 +15,5 @@ These results suggest that with additional hyperparameter tuning, the SNN may be
 </div>
 
 <div align="center">
-  <img src="assets/snn_agent_sim2real_demo.gif"/>
+  <img src="assets/snn_agent_sim2real_demo.gif width="300"/>
 </div>
