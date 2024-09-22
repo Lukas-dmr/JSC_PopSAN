@@ -1,0 +1,31 @@
+active_algo: ppo
+curriculum_lr: true
+debug_info: false
+env_param:
+  max_joint_velocity:
+  - 0.8
+  - 0.8
+  - 0.8
+  - 0.8
+  - 0.8
+  - 0.8
+  max_steps_per_episode: 500
+  min_joint_velocity:
+  - -0.8
+  - -0.8
+  - -0.8
+  - -0.8
+  - -0.8
+  - -0.8
+  visualize: false
+observation:
+  cartes_curr: true
+  cartes_dist: true
+  q_vel: true
+  qpos_curr: true
+project_path: /media/data/daml/HRL_RobotGym
+r_max: 0.7
+r_min: 0.4
+target_in_cartesian: true
+total_timesteps: 20000000
+use_snn: false

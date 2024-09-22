@@ -1,0 +1,5 @@
+bool start
+---
+bool success
+string error
+---

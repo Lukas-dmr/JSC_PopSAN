@@ -1,0 +1,14 @@
+.egg-info/
+__pycache__
+.idea
+.vscode
+runs/
+params/
+snn_logs/
+eval_results/
+__pycache__/
+*.pyc
+*.pyo
+
+
+

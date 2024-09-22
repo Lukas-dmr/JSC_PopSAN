@@ -1,0 +1,38 @@
+# Max timesteps for an agent to learn
+total_timesteps: 20000000
+
+# Use Spiking Neural Network
+use_snn: False
+curriculum_lr: True
+
+# Print observation, current_state and more
+debug_info: False
+
+# If False target position will change to target joint values
+target_in_cartesian: True
+
+# min and max allowed distance between eef and robot base
+r_min: 0.4
+r_max: 0.7
+
+# Input for the agent
+observation:
+  # current eef pos
+  cartes_curr: False
+  # distance between eef pos and target pos
+  cartes_dist: True
+  # current joint values
+  qpos_curr: True
+  # array of joint velocities
+  q_vel: True
+
+# Enviroment parameters
+env_param:
+  visualize: False
+  max_steps_per_episode: 500
+  min_joint_velocity: [-0.8,-0.8,-0.8,-0.8,-0.8,-0.8]
+  max_joint_velocity: [0.8,0.8,0.8,0.8,0.8,0.8]
+
+###!!!DONT REMOVE OR EDIT!!!###          
+project_path: ""                                                   
+active_algo: ""
