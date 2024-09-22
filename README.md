@@ -11,9 +11,11 @@ Although the SNN performed competitively, it did not fully match the DNN’s per
 These results suggest that with additional hyperparameter tuning, the SNN may be able to achieve performance levels comparable to the DNN agent.
 
 <div align="center">
-  <img src="assets/snn_agent_demo.gif" width="200" />
+  <div style="display: inline-block; margin: 10px;">
+    <img src="assets/snn_agent_demo.gif" width="200" />
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="assets/snn_agent_sim2real_demo.gif" width="300" />
+  </div>
 </div>
 
-<div align="center">
-  <img src="assets/snn_agent_sim2real_demo.gif" width="300"/>
-</div>
