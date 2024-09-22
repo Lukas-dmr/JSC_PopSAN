@@ -10,10 +10,10 @@ The evaluation showed that the PopSAn Spiking Neural Network (SNN) achieved a su
 Although the SNN performed competitively, it did not fully match the DNN’s performance in certain areas. 
 These results suggest that with additional hyperparameter tuning, the SNN may be able to achieve performance levels comparable to the DNN agent.
 
-<table>
+<table align="center">
   <tr>
     <td align="center">
-      <img src="assets/snn_agent_demo.gif" width="300" />
+      <img src="assets/snn_agent_demo.gif" width="300" height="300"/>
     </td>
     <td align="center">
       <img src="assets/snn_agent_sim2real_demo.gif" width="300" height="300"/>
