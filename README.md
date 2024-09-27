@@ -12,16 +12,11 @@ Both methods were evaluated in simulation and successfully transferred to a real
 The evaluation showed that the PopSAN agent achieved a success rate of 90% for inverse kinematics tasks, while the Deep Neural Network (DNN) agent reached 99%. 
 Although the PopSAN agent performed competitively, it did not fully match the DNN’s performance in certain areas. This study highlights the potential of Spiking Neural Networks (SNNs) to learn complex tasks while retaining their inherent advantages. Given the close performance to the DNN, it is likely that with further hyperparameter tuning, the SNN could achieve results comparable to the DNN agent. For a deeper insight into this work, please refer to the Master’s thesis PDF available in this repository.
 
-<table align="center" style="border-collapse: collapse; border: none;">
-  <tr>
-    <td align="center" style="border: none;">
-      <img src="assets/snn_agent_demo.gif" width="300" height="300"/>
-    </td>
-    <td align="center" style="border: none;">
-      <img src="assets/snn_agent_sim2real_demo.gif" width="300" height="300"/>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="assets/snn_agent_demo.gif" width="300" height="300" />
+  <img src="assets/snn_agent_sim2real_demo.gif" width="300" height="300" />
+</div>
+
 
 ## Run the agent
 
