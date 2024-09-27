@@ -4,7 +4,7 @@ This work investigates the use of a PopSAN Spiking Neural Network (SNN) for inve
 The performance of the SNN, trained in simulation, is compared with a traditional Deep Neural Network (DNN) approach using the Proximal Policy Optimization (PPO) algorithm. 
 Both methods were evaluated in simulation and successfully transferred to real FR3 robots, demonstrating the potential advantages of SNNs in practical robotic applications.
 <div align="center">
- <img src="assets/popsan_setup.png" width="500" height="300"/>
+ <img src="assets/popsan_setup.png" width="800" height="500"/>
 </div>
 
 ## Results
