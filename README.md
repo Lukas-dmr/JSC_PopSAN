@@ -3,8 +3,9 @@
 This work investigates the use of a PopSAN Spiking Neural Network (SNN) for inverse kinematics in a 7-DOF robotic arm, leveraging reinforcement learning (RL) techniques. 
 The performance of the SNN, trained in simulation, is compared with a traditional Deep Neural Network (DNN) approach using the Proximal Policy Optimization (PPO) algorithm. 
 Both methods were evaluated in simulation and successfully transferred to real FR3 robots, demonstrating the potential advantages of SNNs in practical robotic applications.
-
-<img src="assets/popsan_setup.png" width="500" height="300"/>
+<div align="center">
+ <img src="assets/popsan_setup.png" width="500" height="300"/>
+</div>
 
 ## Results
 
