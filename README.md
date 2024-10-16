@@ -1,6 +1,6 @@
 # Joint Space Control (JSC) using a Population Coded Spking Actor Network (PopSAN)
 
-This [master thesis (Download here)](./master_thesis.pdf)investigates the use of a PopSAN Spiking Neural Network (SNN) for learning the inverse kinematics of a 7-DOF robotic arm, leveraging reinforcement learning (RL) techniques. The PopSAN agent is trained in simulation and its performance is compared with a traditional Deep Neural Network (DNN) approach using the Proximal Policy Optimization (PPO) algorithm. 
+This [master thesis](./master_thesis.pdf)investigates the use of a PopSAN Spiking Neural Network (SNN) for learning the inverse kinematics of a 7-DOF robotic arm, leveraging reinforcement learning (RL) techniques. The PopSAN agent is trained in simulation and its performance is compared with a traditional Deep Neural Network (DNN) approach using the Proximal Policy Optimization (PPO) algorithm. 
 Both methods were evaluated in simulation and successfully transferred to a real FR3 robot. Therefore, this thesis discusses and demonstrates the potential benefits of SNNs in practical robotic applications.
 
 <div align="center">
